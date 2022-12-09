@@ -1,0 +1,184 @@
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.nav-item {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-item .nav-link.active {
+    font-weight: 600;
+    color: #FCBB3A !important;
+}
+
+.nav-link {
+    color: #000000 !important;
+}
+
+.nav-link:hover {
+    color: #FCBB3A !important;  
+}
+
+/* Hero section */
+.hero-section {
+    margin-top: 45px;
+}
+.hero-section h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 72px;
+}
+
+.hero-section p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Tutup Hero section */
+
+.section-title {
+    border-bottom: 3px solid #FCBB3A;
+    width: 5%;
+}
+
+/* Categories */
+.tag {
+    z-index: 3;
+    background-color: #FCBB3A;
+    padding: 0.25rem 1.25rem;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 0px 20px;
+    min-height: 30px;
+}
+
+.tag span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+    color: #171938;
+}
+.categories-thumbnail {
+    width: 100%;
+    height: 462px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.categories-thumbnail:hover .categories-img {
+    transform: scale(1.1);
+}
+
+.categories-img {
+    width: 100%;
+    height: 100%;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: all 0,3s ease;
+}
+/* Tutup Categories */
+
+/* Popular Products */
+.popular-products {
+    padding-top: 50px;
+    background-color: rgba(23, 25, 56, 0.06);
+}
+
+.component-products {
+    margin-top: 50px;
+    margin-bottom: 36px;
+    background: #F6FAFD;
+    border-radius: 8px;
+    border: #000000;
+    padding-bottom: 15px;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.component-products:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.products-img {
+    padding: 0.5rem;
+    border-radius: 8px 8px;
+    background: #F6FAFD;
+
+    transition: all 0.3s ease;
+}
+
+.products-text {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+    color: #171938;
+}
+
+.products-price {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+    color: #E98015;
+}
+/* Tutup Popular Products */
+
+
+/* Footer */
+.footer {
+    background-color: rgb(55, 80, 72);
+}
+
+.footer h5 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+}
+
+.footer p {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: #000000;
+}
+
+.footer-small {
+    background-color: #4d43433d;
+    text-align: center;
+}
+
+.footer-small p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-top: 30px;
+
+    color: #000000;
+}
+
+.footer-small a {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: #FCBB3A;
+}
+/* Tutup Footer */
